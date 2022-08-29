@@ -3,9 +3,6 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-// To clear Deprecated Warning on console
-mongoose.set("useCreateIndex", true);
-
 // Blog Schema
 const blogSchema = new mongoose.Schema({
   title: {

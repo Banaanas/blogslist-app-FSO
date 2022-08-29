@@ -2,9 +2,6 @@ import mongoose from "mongoose";
 // To require some Schema's field to be unique
 import uniqueValidator from "mongoose-unique-validator";
 
-// To make DeprecationWarning disappear from console
-mongoose.set("useFindAndModify", false);
-
 const userSchema = new mongoose.Schema({
   name: {
     type: String,
