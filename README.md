@@ -32,15 +32,12 @@
 </p>
 
 <h1 align="center">📰 BlogsList App 👍🏽</h1>
-<h3 align="center">MongoDB - Express - React - Node.js</h3>
+<h3 align="center">React - Node.js - MongoDB - Express</h3>
 
 <p align="center">
     Sophisticated, fluid and elegant Full Stack BlogsList Application.<br/><br/>
     <a href="https://blogslist-app.cyrilo.app/">:computer: Live Demo :eyes:</a><br/><br/>
 </p>
-
-- [Front-End Repository](https://github.com/Banaanas/blogslist-app-frontend-FSO) - 💻
-- [Back-End Repository](https://github.com/Banaanas/blogslist-app-backend-FSO) - 🤖
 
 
 <!-- TABLE OF CONTENTS -->
@@ -103,7 +100,6 @@ BlogsList Application achieved as part of <a href="https://fullstackopen.com/en/
 - [CSS3](https://www.w3.org/Style/CSS/Overview.html)
 - [Chakra UI](https://chakra-ui.com/)
 - [Cypress](https://www.cypress.io/)
-- [ESLint](https://eslint.org/)
 - [Emotion](https://emotion.sh/)
 - [Express](https://expressjs.com/fr/)
 - [Formik](https://formik.org/)
@@ -113,13 +109,11 @@ BlogsList Application achieved as part of <a href="https://fullstackopen.com/en/
 - [MongoDB](https://www.mongodb.com/)
 - [Mongoose](https://mongoosejs.com/)
 - [Node.js](https://nodejs.org/)
-- [Prettier](https://prettier.io/)
 - [React Table](https://github.com/tannerlinsley/react-table)
 - [React Testing Library](https://github.com/testing-library/react-testing-library)
 - [React](https://reactjs.org/)
 - [Redux Toolkit](https://redux-toolkit.js.org/)
 - [Redux](https://redux.js.org/)
-- [stylelint](https://stylelint.io/)
 - [Yup](https://github.com/jquense/yup)
 
 
@@ -134,16 +128,10 @@ BlogsList Application achieved as part of <a href="https://fullstackopen.com/en/
 
 #### Installation
 
-1 - Clone the Project's repositories
+1 - Clone the Project's repository
 
-- Front End
 ```sh
-git clone https://github.com/Banaanas/blogslist-app-frontend-FSO.git
-```
-
-- Back End
-```sh
-git clone https://github.com/Banaanas/blogslist-app-backend-FSO.git
+git clone https://github.com/Banaanas/blogslist-app-FSO
 ```
 
 2 - Install NPM Packages / Dependencies
@@ -196,8 +184,7 @@ Distributed under the MIT License. See <a href="./LICENSE">`LICENSE`</a> for mor
 <!-- PROJECT LINKS -->
 
 ## Project Links
-- [Front-End Repository](https://github.com/Banaanas/blogslist-app-frontend-FSO) - 💻
-- [Back-End Repository](https://github.com/Banaanas/blogslist-app-backend-FSO) - 🤖
+- [https://github.com/Banaanas/blogslist-app-FSO](https://github.com/Banaanas/blogslist-app-FSO)
 
 
 <!-- ACKNOWLEDGEMENTS -->
