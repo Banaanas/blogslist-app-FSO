@@ -1,0 +1,41 @@
+{
+  "extends": [
+    "airbnb",
+    "airbnb/hooks",
+    "plugin:cypress/recommended",
+    "plugin:eslint-comments/recommended",
+    "plugin:json/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended",
+    "prettier"
+  ],
+  "parser": "babel-eslint",
+  "plugins": [
+    "cypress",
+    "import",
+    "jest",
+    "jest-formatting",
+    "prettier",
+    "testing-library"
+  ],
+  "rules": {
+    "prettier/prettier": "error", // https://github.com/prettier/eslint-plugin-prettier
+    // Disable forbid-prop-types rule
+    "react/prop-types": 0,
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", ".jsx"]
+      }
+    ],
+    "react/jsx-pascal-case": [
+      1,
+      {
+        "allowAllCaps": false
+      }
+    ],
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off"
+  }
+}

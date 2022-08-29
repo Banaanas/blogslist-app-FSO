@@ -1,0 +1,105 @@
+{
+  "name": "blogslist-app-frontend-fso",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "DISABLE_ESLINT_PLUGIN=true react-scripts build",
+    "cypress:open": "cypress open",
+    "eject": "react-scripts eject",
+    "globalLint": "eslint './'",
+    "pre-commit": "lint-staged",
+    "prettier": "prettier --write .",
+    "server": "json-server -p3000 --watch db.json",
+    "start": "ESLINT_NO_DEV_ERRORS=true react-scripts start",
+    "stylelint": "npx stylelint \"**/*.{js,jsx,ts,tsx,css,scss,md}\" ",
+    "test": "react-scripts test",
+    "test:e2e": "cypress run"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^1.6.3",
+    "@emotion/babel-plugin": "^11.3.0",
+    "@emotion/is-prop-valid": "^1.1.0",
+    "@emotion/react": "^11.4.0",
+    "@emotion/styled": "^11.3.0",
+    "@reduxjs/toolkit": "^1.5.1",
+    "@testing-library/jest-dom": "^5.13.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^13.1.9",
+    "axios": "^0.21.1",
+    "beautiful-react-hooks": "^0.35.0",
+    "cypress": "^7.4.0",
+    "emotion": "^11.0.0",
+    "formik": "^2.2.9",
+    "framer-motion": "^4.1.17",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-focus-lock": "^2.5.1",
+    "react-icons": "^4.2.0",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "react-swipeable": "^6.1.2",
+    "react-table": "^7.7.0",
+    "redux-devtools-extension": "^2.13.9",
+    "web-vitals": "^2.0.1",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "@emotion/jest": "^11.3.0",
+    "@testing-library/dom": "^7.31.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.28.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-cypress": "^2.11.3",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jest": "^24.3.6",
+    "eslint-plugin-jest-formatting": "^3.0.0",
+    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-testing-library": "^3.10.2",
+    "prettier": "2.3.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-order": "^4.1.0"
+  },
+  "@comment scripts": {
+    "build": [
+      "`DISABLE_ESLINT_PLUGIN=true` environment variable added to not get ESLINT blocking the Build"
+    ],
+    "cypress:open": [
+      "Run Cypress tests using the graphical test runner"
+    ],
+    "globalLint": [
+      "ESLint - Personal ESLint configuration"
+    ],
+    "prettier": [
+      "Prettier"
+    ],
+    "start": [
+      "`ESLINT_NO_DEV_ERRORS=true` environment variable added to not get ESLINT blocking the Rendering"
+    ],
+    "test:e2e": [
+      "Run Cypress tests using with the command line"
+    ]
+  },
+  "proxy": "http://localhost:3001"
+}
