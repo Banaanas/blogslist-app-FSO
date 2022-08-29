@@ -49,9 +49,8 @@ const App = () => {
 
   // APP - USEEFFECT - LOCALSTORAGE - REDUX STATE
   useEffect(() => {
-    const authenticatedUserJSON = window.localStorage.getItem(
-      "authenticatedUser",
-    );
+    const authenticatedUserJSON =
+      window.localStorage.getItem("authenticatedUser");
 
     // If User not Authenticated, Return
     if (!authenticatedUserJSON) return;

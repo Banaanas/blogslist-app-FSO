@@ -36,13 +36,8 @@ const AllUsersPagesTable = () => {
   // React-Table Hook
   const tableInstance = useTable({ columns, data });
 
-  const {
-    getTableProps,
-    getTableBodyProps,
-    headerGroups,
-    rows,
-    prepareRow,
-  } = tableInstance;
+  const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } =
+    tableInstance;
 
   return (
     <StyledTable {...getTableProps()}>
