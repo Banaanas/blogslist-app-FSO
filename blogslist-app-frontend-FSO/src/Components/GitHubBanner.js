@@ -52,7 +52,7 @@ const StyledDiv = styled.div`
 const GitHubBanner = () => (
   <StyledDiv>
     <a
-      href="https://github.com/Banaanas/blogslist-app-frontend-FSO"
+      href="https://github.com/Banaanas/blogslist-app-FSO"
       className="github-corner"
       target="_blank"
       rel="noopener noreferrer"
